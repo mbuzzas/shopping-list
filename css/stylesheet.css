@@ -1,0 +1,63 @@
+body {
+	background-color: #f2f2f2;
+}
+
+.masthead h1 {
+	font-size: 6em;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-align: center;
+}
+
+.shopping-list {
+	text-align: center;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.add-item {
+	width: 95%;
+	font-size: 2em;
+	margin-bottom: 1.25em;
+}
+
+.add-item_input, .add-item_btn {
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.add-item_input {
+	background-color: #d9d9d9;
+}
+
+.add-item_btn {
+	background-color: #bfbfbf;
+}
+
+.what-i-need, .what-i-got {
+	min-height: 20rem;
+}
+
+.what-i-need-list, .what-i-got-list {
+	font-size: 1.5em;
+	width: 150px;
+	margin: auto;
+	text-align: left;
+	margin-top: 0.5em;
+}
+
+.what-i-got-list {
+	color: #999999;
+	text-decoration: line-through;
+}
+
+h2 {
+	border-radius: 40px;
+	font-size: 2em;
+	background-color: #80b3ff;
+	margin: auto;
+	width: 600px;
+	border: 2px black solid;
+}
+
+/* * {
+	outline: 1px red solid;
+} */
