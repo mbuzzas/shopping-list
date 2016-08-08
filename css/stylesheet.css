@@ -38,10 +38,12 @@ body {
 
 .what-i-need-list, .what-i-got-list {
 	font-size: 1.5em;
-	width: 150px;
+	width: 30rem;
 	margin: auto;
-	text-align: left;
+	text-align: center;
 	margin-top: 0.5em;
+	list-style-type: none;
+	padding: 0;
 }
 
 .what-i-got-list {
@@ -54,9 +56,38 @@ h2 {
 	font-size: 2em;
 	background-color: #80b3ff;
 	margin: auto;
-	width: 600px;
+	width: 30rem;
 	border: 2px black solid;
 }
+
+li:hover {
+	border: 1px dotted black;
+	border-radius: 40px;
+}
+
+.left-check {
+	float: left;
+	padding-left: 20px;
+	display: none;
+}
+
+.right-ex {
+	float: right;
+	padding-right: 20px;
+	display: none;
+}
+
+.up-arrow {
+	float: left;
+	padding-left: 20px;
+	display: none;
+}
+
+li:hover .left-check, li:hover .right-ex, li:hover .up-arrow {
+	display: block;
+}
+
+
 
 /* * {
 	outline: 1px red solid;
