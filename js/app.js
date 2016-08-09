@@ -10,12 +10,12 @@ $(document).ready(function() {
 		$('.what-i-need-list').append(html);
 		$('.add-item_input').val('');
 	});
-	$('body').on('click','.left-arrow',function() {
-		$(this).removeClass('left-check').addClass('up-arrow');
+	$('body').on('click','.left-check',function() {
+		$(this).removeClass('left-check').addClass('up-arrow').html('&#8593;');
 		$(this).parent().appendTo('.what-i-got-list');
 	});
 	$('body').on('click','.up-arrow',function() {
-		$(this).removeClass('up-arrow').addClass('left-check');
+		$(this).removeClass('up-arrow').addClass('left-check').html('&#10003;');
 		$(this).parent().appendTo('.what-i-need-list');
 	});
 	$('body').on('click','.right-ex',function() {
